@@ -1,9 +1,9 @@
 import React from 'react';
+import HomePage from './view/HomePage';
 
 function App() {
   return (
-    
-    <div>ss</div>
+    <HomePage />
   );
 }
 
