@@ -33,15 +33,23 @@ const menuItems = [
   }
 ];
 
-console.log(menuItems);
-
 export default function MainMenu() {
   return(
     <S.Wrapper>
       <Logo />
-      <MenuItem 
-        label={menuItems.label}
-      />
+      
+      {menuItems.map(function (props, key) {
+        console.log(props.label)
+        return(
+          <MenuItem
+            key={key}
+            id={props.id}
+            label={props.label}
+            icon={props.icon}
+          />
+        );
+      })}
+
     </S.Wrapper>
   );
 };
