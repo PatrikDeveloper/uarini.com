@@ -1,8 +1,14 @@
-import react from 'react';
+import React from 'react';
 import * as S from './styles';
 
-export default function MenuItem() {
+
+
+
+export default function MenuItem(item) {
   return (
-    <S.Wrapper>ss</S.Wrapper>
+    <S.Wrapper>
+      <S.Icon></S.Icon>
+      <S.Label>{item.label}</S.Label>
+    </S.Wrapper>
   );
 };
