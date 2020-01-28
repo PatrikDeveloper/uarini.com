@@ -7,6 +7,7 @@ const Wrapper = styled(`div`)`
 `;
 
 const Text = styled.span`
+  display: block;
   font-size: 30px;
   font-style: italic;
   width: 200px;
@@ -15,8 +16,8 @@ const Text = styled.span`
 `;
 
 const Greeting = styled.span`
+  display: block;
   margin-top: 10px;
-  display: flex;
   font-size: 14px;
   font-style: italic;
   color: #ccc;
