@@ -17,7 +17,6 @@ const Text = styled.span`
 
 const Greeting = styled.span`
   display: block;
-  margin-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #ccc;
