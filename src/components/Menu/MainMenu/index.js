@@ -36,19 +36,22 @@ const menuItems = [
 export default function MainMenu() {
   return(
     <S.Wrapper>
-      <Logo />
-      
-      {menuItems.map(function (props, key) {
-        console.log(props.label)
-        return(
-          <MenuItem
-            key={key}
-            id={props.id}
-            label={props.label}
-            icon={props.icon}
-          />
-        );
-      })}
+      <S.WrapperLogo>
+        <Logo />
+      </S.WrapperLogo>
+      <S.WrapperItems>
+        {menuItems.map(function (props, key) {
+          console.log(props.label)
+          return(
+            <MenuItem
+              key={key}
+              id={props.id}
+              label={props.label}
+              icon={props.icon}
+            />
+          );
+        })}
+      </S.WrapperItems>
 
     </S.Wrapper>
   );
