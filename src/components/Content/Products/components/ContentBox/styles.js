@@ -9,6 +9,5 @@ export const Wrapper = styled.div`
 export const BoxProduct = styled.div`
   margin: auto;
   width: 200px;
-  height: 300px;
-  background: black;
+  border: 1px solid #ccc;
 `;
