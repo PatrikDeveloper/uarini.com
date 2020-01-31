@@ -6,7 +6,6 @@ export const Wrapper = styled.div`
   height: 400px;
   display: flex;
   flex-direction: column;
-  
 `;
 
 export const Title = styled.div`
@@ -15,6 +14,6 @@ export const Title = styled.div`
   font-weight: 800;
   color: #ffd700;
   padding: 20px 0 ;
-  margin : 0 100px 40px 100px;
+  margin : 0 30px 40px 30px;
   text-align: center;
 `;

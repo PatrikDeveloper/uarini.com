@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './styles';
-import ContentBox from './components/ContentBox';
+import ContentBox from './ContentBox';
 
 export default function Products() {
   return (

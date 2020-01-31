@@ -5,16 +5,16 @@ export default function ItemsBox() {
   return (
     <S.Wrapper>
       <S.WrapperImg>
-        <S.Image></S.Image>
-        <S.Title>Farinha</S.Title>
+        <S.Image />
       </S.WrapperImg>
+
       <S.Content>
         <S.Icon />
-        <S.Label>Ovinha</S.Label>
+        <S.Label>Farinha Uarini</S.Label>
       </S.Content>
       <S.Content>
         <S.Icon />
-        <S.Label>100% Confiavel</S.Label>
+        <S.Label>Ovinha</S.Label>
       </S.Content>
       <S.Content>
         <S.Icon />
@@ -22,8 +22,14 @@ export default function ItemsBox() {
       </S.Content>
       <S.Content>
         <S.Icon />
-        <S.Label>Delivery</S.Label>
+        <S.Label>Entrega em SP</S.Label>
       </S.Content>
+
+      <S.Button>
+        <h1>25,00 kg</h1>
+        <button>Entre em Contato Conosco</button>
+      </S.Button>
     </S.Wrapper>
+    
   );
 };
