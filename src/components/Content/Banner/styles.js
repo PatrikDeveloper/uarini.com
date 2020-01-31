@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  min-height: 400px;
+  display: flex;
+  max-height: 500px;
   background: #ccc;
 `;
 
-export const Img = styled.div`
 
-`;
