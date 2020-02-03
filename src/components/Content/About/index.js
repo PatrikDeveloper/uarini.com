@@ -1,6 +1,7 @@
 import React from 'react';
 import * as S from './styles';
-import TitleAbout from './Title';
+import TitleAbout from './components/Title';
+import BoxAbout from './components/BoxAbout';
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <TitleAbout 
         title = {'Sobre Nós'}
       />
+      <BoxAbout />
     </S.Wrapper>
   );
 }
