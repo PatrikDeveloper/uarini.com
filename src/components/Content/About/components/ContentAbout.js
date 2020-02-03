@@ -6,8 +6,40 @@ const Wrapper = styled.div`
   vertical-align: top;
 `;
 
-export default function ContentAbout() {
+const WrTitle = styled.div`
+  padding: 5px 20px;
+`;
+const WrContent = styled.div`
+  padding: 20px;
+  text-align: justify;
+  width: 800px;
+`;
+const Title = styled.span`
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+`;
+const Text = styled.span`
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  color: #ccc;
+  letter-spacing: .1em;
+`;
+
+
+
+export default function ContentAbout(box) {
   return (
-    <Wrapper>sssss</Wrapper>
+    <Wrapper>
+      <WrTitle>
+        <Title>{box.title}</Title>
+      </WrTitle>
+      <WrContent>
+        <Text>{box.text}</Text>
+      </WrContent>
+    </Wrapper>
   )
 };

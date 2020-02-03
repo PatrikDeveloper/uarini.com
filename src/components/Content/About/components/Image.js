@@ -1,23 +1,34 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+
 const Wrapper = styled.div`
   display: inline-block;
   vertical-align: top;
-  margin: auto;
 `;
 
 const WrImage = styled.div`
-  width: 350px;
-  height: 300px;
-  background: black;
-  margin-bottom: 20px;
+  margin: 10px;
+  padding: 5px;
+  max-width: 300px;
+  max-height: 350px;
 `;
 
-export default function Image() {
+const Media = styled.img`
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+`;
+
+export default function Image(props) {
   return (
     <Wrapper>
-     <WrImage>t</WrImage>
+     <WrImage>
+      <Media src={props.background} alt=''/>
+     </WrImage>
     </Wrapper>
   )
 }

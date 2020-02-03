@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  display: flex;
   padding: 50px;
+  text-align: center;
 `;
 
 const Title = styled.span`
@@ -13,8 +13,6 @@ const Title = styled.span`
   letter-spacing: .1em;
   text-transform: uppercase;
   color: #fec63e;
-  margin : auto;
-  text-align: center;
 `;
 
 export default function TitleAbout(about) {
