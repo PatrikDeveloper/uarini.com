@@ -8,26 +8,27 @@ export default function ItemsBox() {
         <S.Image />
       </S.WrapperImg>
 
-      <S.Content>
-        <S.Icon />
-        <S.Label>Farinha Uarini</S.Label>
-      </S.Content>
+      <S.Title >
+        <S.TitleText>Farinha Ovinha</S.TitleText>
+      </S.Title>
+
       <S.Content>
         <S.Icon />
         <S.Label>Ovinha</S.Label>
       </S.Content>
+
       <S.Content>
         <S.Icon />
         <S.Label>Manaus - AM</S.Label>
       </S.Content>
+      
       <S.Content>
         <S.Icon />
-        <S.Label>Entrega em SP</S.Label>
+        <S.Label>Delivery</S.Label>
       </S.Content>
 
       <S.Button>
-        <h1>25,00 kg</h1>
-        <button>Entre em Contato Conosco</button>
+        <h1>R$ 15,00 kg</h1>
       </S.Button>
     </S.Wrapper>
     

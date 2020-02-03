@@ -13,14 +13,14 @@ const menuItems = [
   
   {
     id: 2,
-    label: 'Produtos',
+    label: 'Sobre Nós',
     icon: null,
     route: null,
   },
 
   {
     id: 3,
-    label: 'Sobre Nós',
+    label: 'Produtos',
     icon: null,
     route: null,
   },

@@ -11,7 +11,6 @@ const Text = styled.span`
   font-size: 30px;
   font-style: italic;
   width: 200px;
-  height: 50px;
   color: yellow;
 `;
 

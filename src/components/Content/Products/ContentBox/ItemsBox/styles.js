@@ -6,7 +6,6 @@ export const Wrapper = styled.div`
 `;
 
 export const WrapperImg = styled.div`
-  border-bottom: 3px solid #ebebeb;
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   height: 300px;
@@ -25,6 +24,7 @@ export const Image = styled.img`
 export const Content = styled.div`
   padding: 10px;
   margin: auto;
+  background: #fff;
 `;
 
 export const Icon = styled.span`
@@ -33,6 +33,19 @@ export const Icon = styled.span`
   background: #ccc;
   display: inline-block;
   vertical-align: top;
+`;
+
+export const Title = styled.div`
+  color: #fff;
+  background: orange;
+  margin: 0;
+  padding: 10px;
+`;
+
+export const TitleText = styled.span`
+  line-height: 18px;
+  font-size: 24px;
+  margin-left: 20px;
 `;
 
 export const Label = styled.span`

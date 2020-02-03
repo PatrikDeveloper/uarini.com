@@ -14,6 +14,7 @@ export const BoxProduct = styled.div`
   overflow: hidden;
   margin-bottom: 20px;
   cursor: pointer;
+  transition: .3s;
 
   &:hover{
     box-shadow: 5px 10px 18px #888888;
