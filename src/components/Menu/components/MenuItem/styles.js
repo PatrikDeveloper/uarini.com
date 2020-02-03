@@ -14,14 +14,19 @@ export const Icon = styled.span`
 `;
 
 export const Label = styled.span`
-  vertical-align: top;
   display: inline-block;
+  vertical-align: top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   line-height: 24px;
-  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
   margin-left: 5px;
   cursor: pointer;
+  transition: .3s;
 
   &:hover{
-    color: #ccc;
+    color: #fec63e;
   }
 `;

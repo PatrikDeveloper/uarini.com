@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import MainMenu from '../Menu/MainMenu';
 import Banner from './Banner';
 import Products from './Products';
+import About from './About';
 
-const Wrapper = styled(`div`)`
+
+const Wrapper = styled.div`
   
 `;
 
@@ -14,7 +16,8 @@ export default function Content() {
     <Wrapper>
       <MainMenu />
       <Banner />
-      <Products />
+      <About />
+      
     </Wrapper>
   );
 };

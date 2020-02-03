@@ -3,22 +3,22 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   color: white;
-  width: 300px;
 `;
 
 const Text = styled.span`
   display: block;
-  font-size: 30px;
+  font-size: 26px;
   font-style: italic;
-  width: 200px;
-  color: yellow;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fec63e;
+  letter-spacing: .1em;
 `;
 
 const Greeting = styled.span`
   display: block;
   font-size: 14px;
   font-style: italic;
-  color: #ccc;
 `;
 
 export default function Logo() {
