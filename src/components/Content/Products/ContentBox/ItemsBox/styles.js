@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 export const WrapperImg = styled.div`
   border-radius: 10px 10px 0px 0px;
   width: 100%;
-  height: 300px;
+  height: 200px;
   overflow: hidden;
 `;
 
