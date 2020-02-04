@@ -15,7 +15,7 @@ export default function Content() {
   return (
     <Wrapper>
       <MainMenu />
-      <Banner />
+      <Banner  />
       <About />
     </Wrapper>
   );

@@ -35,7 +35,7 @@ const menuItems = [
 
 export default function MainMenu() {
   return(
-    <S.Wrapper>
+    <S.Wrapper >
       <S.WrapperLogo>
         <Logo />
       </S.WrapperLogo>
