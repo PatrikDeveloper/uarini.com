@@ -13,7 +13,7 @@ const menuItems = [
   
   {
     id: 2,
-    label: 'Sobre Nós',
+    label: 'Sobre',
     icon: null,
     route: null,
   },

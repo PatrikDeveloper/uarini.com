@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding: 50px;
+  padding: 20px;
+  margin: 50px 0;
   text-align: center;
 `;
 

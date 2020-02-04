@@ -17,6 +17,7 @@ export default function Content() {
       <MainMenu />
       <Banner  />
       <About />
+      <Products />
     </Wrapper>
   );
 };

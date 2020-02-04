@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
 
-export const Wrapper = styled(`div`)`
+export const Wrapper = styled.div`
   background: #000;
-  padding: 10px 40px;
-  display: flex;
+  padding: 0 20px 0 40px;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  color: #FAFAFA;
 `;
 
 export const WrapperLogo = styled.div`
   float: left;
-  flex: 1;
+  padding: 10px 0;
 `;
 
 export const WrapperItems = styled.div`
