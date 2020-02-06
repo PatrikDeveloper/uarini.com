@@ -2,7 +2,7 @@
 
 * Menu com Array de Objetos
 
-* Props em Conteudos
+* Props em Conteúdos
 
 * Styled-Components
 
