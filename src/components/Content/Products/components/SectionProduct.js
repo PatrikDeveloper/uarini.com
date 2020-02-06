@@ -1,14 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
-import ImageProduct from './ImageProduct';
-import DescriptionProduct from './DescriptionProduct';
+import Image from './Image';
+import Items from './Items';
+import Farinha from './../../../../assets/img/ovinha.jpg';
 
 const Wrapper = styled.div`
   width: 200px;
   height: 300px;
-  border: 1px solid #000;
+  box-shadow: 1px 1px 10px #ccc;
   border-radius: 10px;
   overflow: hidden;
+  cursor: pointer;
+  transition: .3s;
+  margin: auto;
+
+  &:hover {
+    box-shadow: 1px 1px 10px black;
+  }
 `;
 
 
@@ -17,8 +25,10 @@ const Wrapper = styled.div`
 export default function SectionProduct() {
   return (
     <Wrapper>
-      <ImageProduct />
-      <DescriptionProduct />
+      <Image
+        image={Farinha}
+      />
+      <Items />
     </Wrapper>    
   );
 }
