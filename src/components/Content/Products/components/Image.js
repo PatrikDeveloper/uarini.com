@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 
 const WrapperTitle = styled.div`
   padding: 5px;
-  background: rgba(255, 69, 0);
+  background: #ff8c00;
   color: #FAFAFA  ;
   font-weight: bold;
   font-size: 16px;

@@ -26,7 +26,7 @@ const Button = styled.button`
   border: none;
   padding: 19px 10px;
   outline: none;
-  background: rgba(255,69,0);
+  background: #ff8c00;
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -34,7 +34,7 @@ const Button = styled.button`
   transition: .3s;
 
   &:hover,:active{
-    background: #ff8c00;
+    background: rgba(255,69,0);
   }
 `;
 
