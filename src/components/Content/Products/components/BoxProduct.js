@@ -10,43 +10,65 @@ const boxSections = [
   {
     id: 1,
     title: 'Farinha',
+    type: 'Uarini Ovinha',
     route: null,
-    items:[
-      {
-        id: 1,
-        type: 'Uarini Ovinha',
-        img: null,
-        location: 'Manaus',
-        price: 25.00,
-      },
-      {
-        id: 2,
-        type: 'Uarini Dagua',
-        img: null,
-        location: 'Manaus',
-        price: 25.00,
-      }
-    ]
+    background: null,
+    img: null,
+    location: 'Manaus',
+    price: 25.00,
+
   },
+
   {
     id: 2,
-    title: 'Açai',
+    title: 'Farinha',
+    type: 'Uarini Branca',
     route: null,
-    items: [
-      {
-        id: 1,
-        title: 'Açai do Amazonas',
-        img: null,
-        origem: 'Manaus',
-      }
-    ]
+    background: null,
+    img: null,
+    location: 'Manaus',
+    price: 25.00,
+  },
+
+  {
+    id: 3,
+    title: 'Açaí',
+    type: 'Açaí do Amazonas',
+    route: null,
+    background: null,
+    img: null,
+    location: 'Manaus',
+    price: 10.00,
+  },
+
+  {
+    id: 4,
+    title: 'Castanha',
+    type: 'Castanha do Pará',
+    route: null,
+    background: null,
+    img: null,
+    location: 'Pará',
+    price: 10.00,
   }
+
 ]
 
 export default function BoxProducts() {
   return (
     <Wrapper>
-      <SectionProduct />
+      {boxSections.map(function (props, key){
+        return (
+          <SectionProduct
+            key={key}
+            id={props.id}
+            type={props.type}
+            title={props.title}
+            location={props.location}
+            price={props.price}
+          />
+        )
+      })}
     </Wrapper>
   );
 }

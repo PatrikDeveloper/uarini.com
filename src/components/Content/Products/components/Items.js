@@ -38,11 +38,11 @@ const Button = styled.button`
   }
 `;
 
-export default function Items() {
+export default function Items(props) {
   return (
     <Wrapper>
-      <Title>Uarini Ovinha / Manaus- AM</Title>
-      <Price>R$ 25,00</Price>
+      <Title>{props.type}</Title>
+      <Price>R$ {props.price}</Price>
       <Button>Solicitar</Button>
     </Wrapper>    
   );

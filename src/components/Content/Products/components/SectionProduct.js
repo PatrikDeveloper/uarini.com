@@ -5,6 +5,9 @@ import Items from './Items';
 import Farinha from './../../../../assets/img/ovinha.jpg';
 
 const Wrapper = styled.div`
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
   width: 200px;
   height: 300px;
   box-shadow: 1px 1px 10px #ccc;
@@ -12,7 +15,6 @@ const Wrapper = styled.div`
   overflow: hidden;
   cursor: pointer;
   transition: .3s;
-  margin: auto;
 
   &:hover {
     box-shadow: 1px 1px 10px black;
@@ -21,14 +23,19 @@ const Wrapper = styled.div`
 
 
 
-
-export default function SectionProduct() {
+export default function SectionProduct(box) {
   return (
     <Wrapper>
       <Image
         image={Farinha}
+        title={box.title}
+        background={box.background}
       />
-      <Items />
+      <Items
+        background={box.background} 
+        type={box.type}
+        price={box.price}
+      />
     </Wrapper>    
   );
 }

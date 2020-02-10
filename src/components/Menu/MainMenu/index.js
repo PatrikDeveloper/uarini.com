@@ -41,7 +41,6 @@ export default function MainMenu() {
       </S.WrapperLogo>
       <S.WrapperItems>
         {menuItems.map(function (props, key) {
-          console.log(props.label)
           return(
             <MenuItem
               key={key}

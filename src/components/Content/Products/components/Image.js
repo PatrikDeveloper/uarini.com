@@ -16,7 +16,6 @@ const WrapperTitle = styled.div`
   letter-spacing: .1em;
 `;
 
-const WrapperImage = styled.div``;
 
 const ImageProduct = styled.img`
   width: 100%;
@@ -28,7 +27,7 @@ const ImageProduct = styled.img`
 export default function Image(section) {
   return(
     <Wrapper>
-      <WrapperTitle>Farinha</WrapperTitle>
+      <WrapperTitle>{section.title}</WrapperTitle>
       <ImageProduct src={section.image} alt='' />
     </Wrapper>
   )
