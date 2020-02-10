@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import Image from './Image';
 import Items from './Items';
-import Farinha from './../../../../assets/img/ovinha.jpg';
+
 
 const Wrapper = styled.div`
   display: inline-block;
   vertical-align: top;
-  margin-right: 20px;
+  margin: 20px;
   width: 200px;
   height: 300px;
   box-shadow: 1px 1px 10px #ccc;
@@ -24,10 +24,13 @@ const Wrapper = styled.div`
 
 
 export default function SectionProduct(box) {
+  
+  console.log(box.img)
+  
   return (
     <Wrapper>
       <Image
-        image={Farinha}
+        image={box.img}
         title={box.title}
         background={box.background}
       />

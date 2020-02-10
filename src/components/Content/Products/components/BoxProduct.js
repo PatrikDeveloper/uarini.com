@@ -1,6 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import SectionProduct from './SectionProduct';
+import Farinha from './../../../../assets/img/ovinha.jpg';
+import FarinhaBranca from './../../../../assets/img/farinha-branca.png';
+import Acai from './../../../../assets/img/açai-amazonas.jpg';
+import Castanha from './../../../../assets/img/castanha-para.jpg';
+import Tucuma from './../../../../assets/img/tucuma.jpg';
+
 
 const Wrapper = styled.div`
   padding: 20px;
@@ -10,10 +16,10 @@ const boxSections = [
   {
     id: 1,
     title: 'Farinha',
-    type: 'Uarini Ovinha',
+    type: 'Uarini Ovinha do Amazonas',
     route: null,
-    background: null,
-    img: null,
+    background:null ,
+    img: Farinha,
     location: 'Manaus',
     price: 25.00,
 
@@ -22,10 +28,10 @@ const boxSections = [
   {
     id: 2,
     title: 'Farinha',
-    type: 'Uarini Branca',
+    type: 'Uarini Branca do Amazonas',
     route: null,
     background: null,
-    img: null,
+    img: {FarinhaBranca},
     location: 'Manaus',
     price: 25.00,
   },
@@ -36,7 +42,7 @@ const boxSections = [
     type: 'Açaí do Amazonas',
     route: null,
     background: null,
-    img: null,
+    img: {Acai},
     location: 'Manaus',
     price: 10.00,
   },
@@ -47,10 +53,22 @@ const boxSections = [
     type: 'Castanha do Pará',
     route: null,
     background: null,
-    img: null,
+    img: {Castanha},
     location: 'Pará',
     price: 10.00,
-  }
+  },
+
+  {
+    id: 5,
+    title: 'Tucumã',
+    type: 'Tucumã do Amazonas',
+    route: null,
+    background: null,
+    img: {Tucuma},
+    location: 'Manaus',
+    price: 10.00,
+  },
+
 
 ]
 
