@@ -25,12 +25,10 @@ const Wrapper = styled.div`
 
 export default function SectionProduct(box) {
   
-  console.log(box.img)
-  
   return (
     <Wrapper>
       <Image
-        image={box.img}
+        media={box.media}
         title={box.title}
         background={box.background}
       />

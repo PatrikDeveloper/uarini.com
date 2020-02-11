@@ -7,28 +7,24 @@ const menuItems = [
   {
     id: 1,
     label: 'Home',
-    icon: null,
     route: null,
   },
   
   {
     id: 2,
     label: 'Sobre',
-    icon: null,
     route: null,
   },
 
   {
     id: 3,
     label: 'Produtos',
-    icon: null,
     route: null,
   },
 
   {
     id: 4,
     label: 'Contato',
-    icon: null,
     route: null,
   }
 ];

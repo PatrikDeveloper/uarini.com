@@ -17,7 +17,7 @@ const WrapperTitle = styled.div`
 `;
 
 
-const ImageProduct = styled.div`
+const ImageProduct = styled.img`
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -25,10 +25,13 @@ const ImageProduct = styled.div`
 `;
 
 export default function Image(section) {
+  
+  console.log(section.image)
+
   return(
     <Wrapper>
       <WrapperTitle>{section.title}</WrapperTitle>
-      <ImageProduct>{section.img}</ImageProduct>
+      <ImageProduct src={section.media} alt='' />
     </Wrapper>
   )
 }
