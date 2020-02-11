@@ -5,7 +5,6 @@ import BoxProducts from './components/BoxProduct';
 
 export const Wrapper = styled.div`
   text-align: center;
-  margin: 50px 0;
   padding: 20px;
 `;
 

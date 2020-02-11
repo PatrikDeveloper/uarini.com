@@ -26,7 +26,7 @@ const Button = styled.button`
   border: none;
   padding: 19px 10px;
   outline: none;
-  background: #ff8c00;
+  background: ${section => section.background};
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -38,12 +38,12 @@ const Button = styled.button`
   }
 `;
 
-export default function Items(props) {
+export default function Items(section) {
   return (
     <Wrapper>
-      <Title>{props.type}</Title>
-      <Price>R$ {props.price}</Price>
-      <Button>Solicitar</Button>
+      <Title>{section.type}</Title>
+      <Price>R$ {section.price}</Price>
+      <Button background={section.background}>Solicitar</Button>
     </Wrapper>    
   );
 }

@@ -18,38 +18,39 @@ const boxSections = [
     title: 'Farinha',
     type: 'Uarini Ovinha do Amazonas',
     route: null,
-    background:null ,
+    background: '#ff8c00',
     media: Farinha,
     price: 25.00,
 
   },
-
+  
   {
     id: 2,
+    title: 'Açaí',
+    type: 'Açaí do Amazonas',
+    route: null,
+    background: 'rgb(138, 5, 190)',
+    media: Acai,
+    price: 10.00,
+  },
+  
+  {
+    id: 3,
     title: 'Farinha',
     type: 'Uarini Branca do Amazonas',
     route: null,
-    background: null,
+    background: '#ff8c00',
     media: FarinhaBranca,
     price: 25.00,
   },
 
-  {
-    id: 3,
-    title: 'Açaí',
-    type: 'Açaí do Amazonas',
-    route: null,
-    background: null,
-    media: Acai,
-    price: 10.00,
-  },
 
   {
     id: 4,
     title: 'Castanha',
     type: 'Castanha do Pará',
     route: null,
-    background: null,
+    background: '#a52a2a',
     media: Castanha,
     price: 10.00,
   },
@@ -59,7 +60,7 @@ const boxSections = [
     title: 'Tucumã',
     type: 'Tucumã do Amazonas',
     route: null,
-    background: null,
+    background: '#ffd700',
     media: Tucuma,
     price: 10.00,
   },
@@ -80,6 +81,7 @@ export default function BoxProducts() {
             location={props.location}
             price={props.price}
             media={props.media}
+            background={props.background}
           />
         )
       })}

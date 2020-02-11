@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 
 const WrapperTitle = styled.div`
   padding: 5px;
-  background: #ff8c00;
+  background: ${section => section.background};
   color: #FAFAFA  ;
   font-weight: bold;
   font-size: 16px;
@@ -30,7 +30,10 @@ export default function Image(section) {
 
   return(
     <Wrapper>
-      <WrapperTitle>{section.title}</WrapperTitle>
+      <WrapperTitle
+        background={section.background}>
+        {section.title}
+      </WrapperTitle>
       <ImageProduct src={section.media} alt='' />
     </Wrapper>
   )
