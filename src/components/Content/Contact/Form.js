@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 15px;
+
+`;
+
+const WrapperInput = styled.div`
 `;
 
 const Input = styled.input`
-  padding: 10px 100% 10px 0;
-  display: block;
+  width: 100%;
   background: #ffffff;
   margin-bottom: 25px;
   border-radius: 3px;
@@ -25,35 +25,43 @@ const Button = styled.button`
 
 export default function Form() {
   return (
-    <Wrapper className='wrapper-form'>
-      <form>
-        <Input 
-          type='text'  
-          name='name' 
-          placeholder='Digite seu nome' 
-        />
-        <Input 
-          type='email' 
-          name='email' 
-          placeholder='Digite seu email' 
-        />
-        <Input 
-          type='tel'   
-          name='tel'
-          placeholder='(11) 00000-0000'
-        />
-        <Input 
-          type='text'
-          name='endereco'
-          placeholder='Av.Paulista n°222 - São Paulo'
-        />
-        <TextArea 
-          type='textarea'
-          name='text'
-          placeholder='Mensagem'
-        />
+    <Wrapper id='column-form'>
+        <WrapperInput id='wrapper-input'>
+          <Input 
+            type='text'  
+            name='name' 
+            placeholder='Digite seu nome' 
+          />
+        </WrapperInput>
+        <WrapperInput>
+          <Input 
+            type='email' 
+            name='email' 
+            placeholder='Digite seu email' 
+          />
+        </WrapperInput>
+        <WrapperInput>
+          <Input 
+            type='tel'   
+            name='tel'
+            placeholder='(11) 00000-0000'
+          />
+        </WrapperInput>
+        <WrapperInput>
+          <Input 
+            type='text'
+            name='endereco'
+            placeholder='Av.Paulista n°222 - São Paulo'
+          />
+        </WrapperInput>
+        <WrapperInput>
+          <TextArea 
+            type='textarea'
+            name='text'
+            placeholder='Mensagem'
+          />
+        </WrapperInput>
         <Button>Enviar</Button>
-      </form>
     </Wrapper>
   )
 }

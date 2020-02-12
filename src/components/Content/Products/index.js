@@ -1,18 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import TitleAbout from '../About/components/Title';
+import Title from '../Title';
 import BoxProducts from './components/BoxProduct';
 
 export const Wrapper = styled.div`
   text-align: center;
   padding: 20px;
+  margin-bottom: 50px;
 `;
 
 
 export default function Products() {
   return (
-    <Wrapper>
-      <TitleAbout  
+    <Wrapper id='wrap-products'>
+      <Title
+        color = {'#fec63e'}  
         title = {'Produtos'}
       />
       <BoxProducts />

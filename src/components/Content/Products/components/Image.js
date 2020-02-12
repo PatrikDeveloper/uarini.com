@@ -25,9 +25,6 @@ const ImageProduct = styled.img`
 `;
 
 export default function Image(section) {
-  
-  console.log(section.image)
-
   return(
     <Wrapper>
       <WrapperTitle

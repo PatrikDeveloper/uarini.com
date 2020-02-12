@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import TitleAbout from './components/Title';
+import Title from '../Title';
 import BoxAbout from './components/BoxAbout';
 
 const Wrapper = styled.div`
   padding: 70px 0;
   background: #ff8c00;
-  box-shadow: 0 1px 10px #000;
-  border-radius: 10px;
+  box-shadow: 0 1px 10px #ccc;
   text-align: center;
 `;
 
 export default function About() {
   return (
     <Wrapper>
-      <TitleAbout 
+      <Title
+        color = {'#FAFAFA'}
         title = {'Sobre Nós'}
       />
       <BoxAbout />

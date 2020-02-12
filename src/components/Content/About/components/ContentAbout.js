@@ -17,7 +17,7 @@ const WrContent = styled.div`
 const Title = styled.span`
   font-size: 18px;
   font-weight: bold;
-  color: #000;
+  color: #FAFAFA;
   text-transform: uppercase;
   letter-spacing: .1em;
 `;
@@ -25,7 +25,7 @@ const Text = styled.span`
   font-size: 16px;
   line-height: 25px;
   text-align: justify;
-  color: #ccc;
+  color: #FAFAFA;
   letter-spacing: .1em;
 `;
 

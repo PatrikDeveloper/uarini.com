@@ -1,26 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 import Form from './Form';
+import CallCenter from './../../../assets/img/contato.jpg'
 
 const Wrapper = styled.div`
-  padding: 20px 10px;
-  text-align: center;
-  background-color: #24292e;
+  background-color: #f6f7fb;
+  display: flex;
 `;
 
-const WrapperImage=styled.span`
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  width: 400px;
+const WrapperImage = styled.div`
+  flex: 0 0 40%;
   height: 400px;
-  background-color: #ccc;
+`;
+
+const Image = styled.img`
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 `;
 
 export default function Contact() {
   return (
-    <Wrapper>
-      <WrapperImage></WrapperImage>
+    <Wrapper id='wrapper-contact'>
+      <WrapperImage id='column-image'>
+        <Image src={CallCenter} alt='CallCenter'/>
+      </WrapperImage>
       <Form />
     </Wrapper>
   );

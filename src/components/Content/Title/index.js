@@ -8,18 +8,18 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.span`
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #000;
   font-size: 28px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: .2em;
   text-transform: uppercase;
-  color: #fec63e;
+  color: ${about => about.color};
 `;
 
 export default function TitleAbout(about) {
   return (
     <Wrapper>
-      <Title>{about.title}</Title>
+      <Title color={about.color}>{about.title}</Title>
     </Wrapper>
   );
 }
