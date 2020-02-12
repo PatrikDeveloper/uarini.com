@@ -8,9 +8,10 @@ const Wrapper = styled.div`
   background-color: #24292e;
 `;
 
-const WrapperImage=styled.div`
+const WrapperImage=styled.span`
   display: inline-block;
   vertical-align: top;
+  text-align: left;
   width: 400px;
   height: 400px;
   background-color: #ccc;
@@ -19,7 +20,6 @@ const WrapperImage=styled.div`
 export default function Contact() {
   return (
     <Wrapper>
-      <h1>Contato</h1>
       <WrapperImage></WrapperImage>
       <Form />
     </Wrapper>

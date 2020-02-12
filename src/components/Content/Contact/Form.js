@@ -8,14 +8,19 @@ const Wrapper = styled.div`
 `;
 
 const Input = styled.input`
-  padding: 10px;
+  padding: 10px 100% 10px 0;
   display: block;
   background: #ffffff;
   margin-bottom: 25px;
   border-radius: 3px;
 `;
 
+const TextArea = styled.textarea`
+
+`;
+
 const Button = styled.button`
+  border: none;
 `;
 
 export default function Form() {
@@ -33,8 +38,8 @@ export default function Form() {
           placeholder='Digite seu email' 
         />
         <Input 
-          type = 'tel'   
-          name = 'tel'
+          type='tel'   
+          name='tel'
           placeholder='(11) 00000-0000'
         />
         <Input 
@@ -42,9 +47,9 @@ export default function Form() {
           name='endereco'
           placeholder='Av.Paulista n°222 - São Paulo'
         />
-        <input 
+        <TextArea 
           type='textarea'
-          name='area'
+          name='text'
           placeholder='Mensagem'
         />
         <Button>Enviar</Button>
