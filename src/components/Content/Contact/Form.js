@@ -29,9 +29,12 @@ const TextArea = styled.textarea`
 const Button = styled.button`
   padding: 10px 50px;
   margin-top: 20px;
-  border: 2px solid #ffd700;
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
   border-radius: 6px;
-  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
   outline: none;
   cursor: pointer;
 `;
