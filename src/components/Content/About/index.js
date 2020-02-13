@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   background: #ff8c00;
   box-shadow: 0 1px 10px #ccc;
   text-align: center;
+  margin-top: 100px;
 `;
 
 export default function About() {
