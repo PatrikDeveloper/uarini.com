@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   text-align: center;
 `;
 
-const Title = styled.span`
+const Label = styled.span`
   border-bottom: 3px solid #000;
   font-size: 28px;
   font-weight: bold;
@@ -16,10 +16,10 @@ const Title = styled.span`
   color: ${about => about.color};
 `;
 
-export default function TitleAbout(about) {
+export default function Title(props) {
   return (
     <Wrapper>
-      <Title color={about.color}>{about.title}</Title>
+      <Label color={props.color}>{props.title}</Label>
     </Wrapper>
   );
 }

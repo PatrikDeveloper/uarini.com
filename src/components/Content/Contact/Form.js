@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  width: 100%;
   padding: 0 30px;
 `;
 
@@ -11,25 +10,35 @@ const WrapperInput = styled.div`
 `;
 
 const Input = styled.input`
-  border: none;
+  border: 1px solid #ffd700;
   border-radius: 10px;
   width: 100%;
   background: #ffffff;
   padding: 15px;
+  outline: none;
 `;
 
 const TextArea = styled.textarea`
   width: 100%;
+  border: 1px solid #ff8c00;
+  border-radius: 10px;
+  padding: 20px 15px;
+  outline: none;
 `;
 
 const Button = styled.button`
-  border: none;
+  padding: 10px 50px;
+  margin-top: 20px;
+  border: 1px solid #ff8c00;
+  border-radius: 6px;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
 `;
 
 export default function Form() {
   return (
     <Wrapper id='column-form'>
-      <h1>Contato</h1>
       <p>Preencha os dados para que nossa equipe possa entrar em contato !</p>
         <WrapperInput id='wrapper-input'>
           <Input 
