@@ -2,9 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import Form from './Form';
 import CallCenter from './../../../assets/img/contato.png'
+import Title from './../Title';
 
 const Wrapper = styled.div`
   background-color: #fffafa;
+`;
+
+const WrapperColumn = styled.div`
   display: flex;
 `;
 
@@ -27,13 +31,16 @@ const Image = styled.img`
 
 export default function Contact() {
   return (
-    <Wrapper id='wrapper-contact'>
-      <WrapperImage id='column-image'>
-        <Image src={CallCenter} alt='CallCenter'/>
-      </WrapperImage>
-      <WrapperForm>
-        <Form />
-      </WrapperForm>
+    <Wrapper className='wrap-contact'>
+      <Title color = {'#fec63e'} title={'Contato'}/>
+      <WrapperColumn className='wrap-columns'>
+        <WrapperImage className='wrap-image'>
+          <Image src={CallCenter} alt='CallCenter'/>
+        </WrapperImage>
+        <WrapperForm className='wrap-forms'>
+          <Form />
+        </WrapperForm>
+      </WrapperColumn>
     </Wrapper>
   );
 }

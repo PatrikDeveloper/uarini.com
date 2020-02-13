@@ -10,7 +10,7 @@ const WrapperInput = styled.div`
 `;
 
 const Input = styled.input`
-  border: 1px solid #ffd700;
+  border: 2px solid #ffd700;
   border-radius: 10px;
   width: 100%;
   background: #ffffff;
@@ -20,7 +20,7 @@ const Input = styled.input`
 
 const TextArea = styled.textarea`
   width: 100%;
-  border: 1px solid #ff8c00;
+  border: 2px solid #ffd700;
   border-radius: 10px;
   padding: 20px 15px;
   outline: none;
@@ -29,7 +29,7 @@ const TextArea = styled.textarea`
 const Button = styled.button`
   padding: 10px 50px;
   margin-top: 20px;
-  border: 1px solid #ff8c00;
+  border: 2px solid #ffd700;
   border-radius: 6px;
   background-color: #ffffff;
   outline: none;
