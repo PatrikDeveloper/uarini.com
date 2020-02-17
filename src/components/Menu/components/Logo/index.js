@@ -25,7 +25,7 @@ export default function Logo() {
   return (
     <Wrapper>
       <Text>Uarini.com</Text>
-      <Greeting>Produtos Típicos Amazonenses</Greeting>
+      <Greeting>Produtos típicos Amazonenses</Greeting>
     </Wrapper>
   );
 }

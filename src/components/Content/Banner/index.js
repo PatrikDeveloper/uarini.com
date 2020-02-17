@@ -6,7 +6,7 @@ import Images from './Images';
 export default function Banner() {
   return (
     <S.Wrapper>
-      <Images img={Background}/>
+      <Images img={Background} />
     </S.Wrapper>    
   );
 };
