@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-
+  
 `;
 
 const Image = styled.img`
@@ -13,19 +13,20 @@ const Image = styled.img`
 `;
 
 
-const Title = styled.span`
-  text-transform: uppercase;
-  background-color: rgba(0, 0, 0, .6);
-  margin-top: 250px;
-  text-align: center;
-  width: 100%;
-  color: white;
+const Title = styled.div`
   position: absolute;
-  font-size: 36px;
-  font-weight: 400;
-  text-shadow: 1px 1px 1px #FAFAFA;
-  font-family: 'Abril Fatface', cursive;
-  letter-spacing: .2em;
+  margin-top: 250px;
+  width: 100%;
+  padding: 30px;
+  color: #FAFAFA;
+  background-color: rgba(0, 0, 0, .6);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight:  bold;
+  text-shadow: 1px 1px 1px #CCC;
+  font-family: 'Coda Caption', sans-serif;
+  letter-spacing: .1em;
 `;
 
 export default function Images(props) {

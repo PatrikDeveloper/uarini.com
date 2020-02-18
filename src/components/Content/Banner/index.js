@@ -7,6 +7,7 @@ export default function Banner() {
   return (
     <S.Wrapper>
       <Images img={Background} />
+      
     </S.Wrapper>    
   );
 };

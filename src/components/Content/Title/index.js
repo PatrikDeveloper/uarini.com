@@ -9,9 +9,9 @@ const Wrapper = styled.div`
 
 const Label = styled.span`
   border-bottom: 3px solid #000;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
-  letter-spacing: .2em;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: ${about => about.color};
 `;

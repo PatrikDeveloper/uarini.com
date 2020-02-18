@@ -5,7 +5,7 @@ import CallCenter from './../../../assets/img/contato.png'
 import Title from './../Title';
 
 const Wrapper = styled.div`
-  background-color: #fffafa;
+  background-color: #24292e;
 `;
 
 const WrapperColumn = styled.div`
@@ -32,7 +32,7 @@ const Image = styled.img`
 export default function Contact() {
   return (
     <Wrapper className='wrap-contact'>
-      <Title color = {'#fec63e'} title={'Contato'}/>
+      <Title color = {'#FAFAFA'} title={'Contato'}/>
       <WrapperColumn className='wrap-columns'>
         <WrapperImage className='wrap-image'>
           <Image src={CallCenter} alt='CallCenter'/>

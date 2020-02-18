@@ -32,10 +32,6 @@ const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   transition: .3s;
-
-  &:hover,:active{
-    background: rgba(255,69,0);
-  }
 `;
 
 export default function Items(section) {
