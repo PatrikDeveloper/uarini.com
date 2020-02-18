@@ -39,6 +39,7 @@ export default function Footer() {
           />
         );
       })}
+      <S.Infor>Protegido por direitos autorais Uarini.com. Todos os direitos reservados. © 2020.</S.Infor>
     </S.Wrapper>
   );
 }

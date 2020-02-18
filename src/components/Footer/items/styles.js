@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
 `;
 
 export const WrapImage = styled.div`
@@ -39,3 +41,4 @@ export const Label = styled.span`
     color: #ccc;
   }
 `;
+
