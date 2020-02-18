@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 export default function About() {
   return (
-    <Wrapper>
+    <Wrapper className='Wrap-about'>
       <Title
         color = {'#FAFAFA'}
         title = {'Sobre Nós'}

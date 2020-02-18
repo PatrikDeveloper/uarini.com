@@ -22,7 +22,7 @@ const contentAbout = [
 
 export default function BoxAbout() {
   return (
-    <Wrapper>
+    <Wrapper className='Wrap-boxAbout'>
       <Image 
         background={Person}
       />

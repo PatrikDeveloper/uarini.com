@@ -25,8 +25,8 @@ const Media = styled.img`
 
 export default function Image(props) {
   return (
-    <Wrapper>
-     <WrImage>
+    <Wrapper className='Wrap-image'>
+     <WrImage className='Wrap-media'>
       <Media src={props.background} alt=''/>
      </WrImage>
     </Wrapper>

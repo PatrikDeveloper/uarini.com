@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   vertical-align: top;
 `;
 
-const WrTitle = styled.div`
+const WrapperTitle = styled.div`
   padding: 5px 20px;
 `;
 const WrContent = styled.div`
@@ -33,12 +33,12 @@ const Text = styled.span`
 
 export default function ContentAbout(box) {
   return (
-    <Wrapper>
-      <WrTitle>
-        <Title>{box.title}</Title>
-      </WrTitle>
-      <WrContent>
-        <Text>{box.text}</Text>
+    <Wrapper className='Wrap-content'>
+      <WrapperTitle className='Wrap-title'>
+        <Title className='title'>{box.title}</Title>
+      </WrapperTitle>
+      <WrContent className='Wrap-contentBox'>
+        <Text className='Wrap-text'>{box.text}</Text>
       </WrContent>
     </Wrapper>
   )

@@ -21,7 +21,7 @@ const items = [
   {
     id: 3,
     icon: Delivery,
-    label: 'Entrega Para toda São Paulo',
+    label: 'São Paulo',
   }
   
 ]
