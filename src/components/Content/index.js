@@ -5,6 +5,7 @@ import Banner from './Banner';
 import Products from './Products';
 import About from './About';
 import Contact from './Contact';
+import Footer from '../Footer';
 
 
 const Wrapper = styled.div`
@@ -20,6 +21,7 @@ export default function Content() {
       <About />
       <Products />
       <Contact />
+      <Footer />
     </Wrapper>
   );
 };
