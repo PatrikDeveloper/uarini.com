@@ -2,37 +2,40 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  
 `;
 
 const Image = styled.img`
-  width: 100%;  
+  width: 100%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 `;
 
+const WrapperTitle = styled.div`
+  background-color: rgba(0, 0, 0, .8);  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+`;
 
 const Title = styled.div`
-  position: absolute;
-  margin-top: 250px;
-  width: 100%;
-  padding: 30px;
   color: #FAFAFA;
-  background-color: rgba(0, 0, 0, .6);
-  text-transform: uppercase;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   font-weight:  bold;
   text-shadow: 1px 1px 1px #CCC;
-  font-family: 'Coda Caption', sans-serif;
   letter-spacing: .1em;
+  line-height: 500px;
+  text-transform: uppercase;
 `;
 
 export default function Images(props) {
   return(
     <Wrapper>
-      <Title>De Manaus Para o Mundo</Title>
+      <WrapperTitle>
+        <Title>Produtos Importados Direto da Região norte</Title>
+      </WrapperTitle>
       <Image src={props.img} alt='' />
     </Wrapper>
   );

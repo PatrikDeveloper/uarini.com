@@ -6,6 +6,7 @@ import Title from './../Title';
 
 const Wrapper = styled.div`
   background-color: #24292e;
+  padding: 30px 0;
 `;
 
 const WrapperColumn = styled.div`
