@@ -8,12 +8,12 @@ const Wrapper = styled.div`
 `;
 
 const Label = styled.span`
-  border-bottom: 3px solid #000;
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 600;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: ${about => about.color};
+  text-shadow: 1px 1px 1px #ccc;
 `;
 
 export default function Title(props) {

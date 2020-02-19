@@ -14,7 +14,7 @@ export default function Products() {
   return (
     <Wrapper id='wrap-products'>
       <Title
-        color = {'#fec63e'}  
+        color = {'#ff8c00'}  
         title = {'Produtos'}
       />
       <BoxProducts />
