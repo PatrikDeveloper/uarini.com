@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import MainMenu from '../Menu/MainMenu';
-import Banner from './Banner';
+import Banner from '../../view/Banner';
 import Products from './Products';
 import About from './About';
 import Contact from './Contact';
@@ -19,7 +19,7 @@ export default function Content() {
       <MainMenu />
       <Banner  />
       <About />
-      <Products />
+      <Products/>
       <Contact />
       <Footer />
     </Wrapper>

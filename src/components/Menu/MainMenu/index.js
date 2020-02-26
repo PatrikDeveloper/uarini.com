@@ -2,12 +2,13 @@ import React from 'react';
 import * as S from './styles';
 import Logo from '../components/Logo';
 import MenuItem from '../components/MenuItem';
+import Routes from './../../../routes';
 
 const menuItems = [
   {
     id: 1,
     label: 'Home',
-    route: null,
+    route: Routes,
   },
   
   {
@@ -43,6 +44,7 @@ export default function MainMenu() {
               id={props.id}
               label={props.label}
               icon={props.icon}
+              onclick={props.route}
             />
           );
         })}

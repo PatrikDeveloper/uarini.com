@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './styles';
-import Background from './../../../assets/img/banner.jpg';
+import Background from '../../assets/img/banner.jpg';
 import Images from './Images';
 
 export default function Banner() {
