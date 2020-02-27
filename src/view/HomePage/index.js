@@ -1,8 +1,19 @@
 import React from 'react';
-import Content from '../../components/Content';
+import Page from '../../components/Page';
+
+import Banner from '../../components/Banner';
+import Products from '../../components/Products';
+import About from '../../components/About';
+import Contact from '../../components/Contact';
+
 
 export default function HomePage(){
   return (
-    <Content />
+    <Page>
+      <Banner  />
+      <About />
+      <Products/>
+      <Contact />
+    </Page>
   );
 };

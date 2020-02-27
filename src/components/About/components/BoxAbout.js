@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Image from './Image';
 import ContentAbout from './ContentAbout';
-import Person from './../../../../assets/img/rede.png';
+import Person from '../../../assets/img/rede.png';
 
 const Wrapper = styled.div`
   display: inline-block;

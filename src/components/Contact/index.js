@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Form from './Form';
-import CallCenter from './../../../assets/img/contato.png'
-import Title from './../Title';
+import CallCenter from '../../assets/img/contato.png';
+import Title from '../../components/Title';
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   background-color: #24292e;
   padding: 30px 0;
 `;
@@ -32,7 +32,7 @@ const Image = styled.img`
 
 export default function Contact() {
   return (
-    <Wrapper className='wrap-contact'>
+    <Wrapper id='section-contact' className='wrap-contact'>
       <Title color = {'#FAFAFA'} title={'Contato'}/>
       <WrapperColumn className='wrap-columns'>
         <WrapperImage className='wrap-image'>

@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import SectionProduct from './SectionProduct';
-import Farinha from './../../../../assets/img/ovinha.jpg';
-import FarinhaBranca from './../../../../assets/img/farinha-branca.png';
-import Acai from './../../../../assets/img/acai-amazonas.jpg';
-import Castanha from './../../../../assets/img/castanha-para.jpg';
-import Tucuma from './../../../../assets/img/tucuma.jpg';
+import Farinha from '../../../assets/img/ovinha.jpg';
+import FarinhaBranca from '../../../assets/img/farinha-branca.png';
+import Acai from '../../../assets/img/acai-amazonas.jpg';
+import Castanha from '../../../assets/img/castanha-para.jpg';
+import Tucuma from '../../../assets/img/tucuma.jpg';
 
 
 const Wrapper = styled.div`

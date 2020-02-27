@@ -1,23 +1,46 @@
 import React from 'react';
-import styled from 'styled-components';
-import Title from '../Title';
-import BoxAbout from './components/BoxAbout';
+import Page from '../../components/Page';
+import Content from '../../components/Content';
+import Banner from '../../components/Banner';
 
-const Wrapper = styled.div`
-  padding: 70px 0;
-  background: #ff8c00;
-  box-shadow: 0 1px 10px #ccc;
-  text-align: center;
-`;
-
-export default function About() {
+export default function About(){
   return (
-    <Wrapper className='Wrap-about'>
-      <Title
-        color = {'#FAFAFA'}
-        title = {'Sobre Nós'}
-      />
-      <BoxAbout />
-    </Wrapper>
+    <Page currentMenu="About">
+      <Content>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+      </Content>
+
+      <Banner />
+
+      <Content>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+        Tudo que tiver dentro do content fica 
+        com no máximo 1000px;<br/><br/>
+      </Content>
+    </Page>
   );
-}
+};
