@@ -8,6 +8,8 @@ export const Background = styled.div`
   height: 500px;
   background: url('${props => props.img}');
   z-index: 1;
+  background-size: cover;
+  background-position: center;
 `;
 
 export const Title = styled.div`
@@ -17,7 +19,7 @@ export const Title = styled.div`
   left: 0;
   color: #FAFAFA;
   text-align: center;
-  font-size: 42px;
+  font-size: 50px;
   font-weight:  bold;
   text-shadow: 1px 1px 1px #CCC;
   text-transform: uppercase;
@@ -31,6 +33,6 @@ export const Overlay = styled.div`
   top: 0;
   right: 0;
   bottom: 0;
-  opacity: .7;
+  opacity: .4;
   z-index: 2;
 `;

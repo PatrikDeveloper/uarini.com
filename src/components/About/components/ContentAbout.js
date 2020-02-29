@@ -22,7 +22,7 @@ const Title = styled.span`
   letter-spacing: .1em;
 `;
 const Text = styled.span`
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   text-align: justify;
   color: #FAFAFA;

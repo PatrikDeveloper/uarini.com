@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './styles';
-import bannerImage from '../../assets/img/banner.jpg';
+import bannerImage from '../../assets/img/banner1.jpg';
 
 export default function Banner() {
   return (
