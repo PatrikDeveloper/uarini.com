@@ -2,33 +2,19 @@ import React from 'react';
 import * as S from './styles';
 import Logo from '../components/Logo';
 import MenuItem from '../components/MenuItem';
+import menuItems from './menuItems';
 
-const menuItems = [
-  {
-    id: 1,
-    label: 'Home',
-    route: "#",
-  },
-  
-  {
-    id: 2,
-    label: 'Sobre',
-    route: "#section-about",
-  },
-
-  {
-    id: 3,
-    label: 'Produtos',
-    route: "#section-products",
-  },
-
-  {
-    id: 4,
-    label: 'Contato',
-    route: "#section-contact",
-  }
-];
-
+// elementSelector is an element id like #section-about
+function moveScroll(elementSelector) {
+  const element = document.querySelector(elementSelector);
+  // offsetTop is 
+  const position = element.offsetTop;
+  // window.scrollTo(0, position);
+  window.scroll({
+    top: position,
+    behavior: 'smooth',
+  });
+}
 
 export default function MainMenu() {
   return(
@@ -45,7 +31,7 @@ export default function MainMenu() {
                 id={item.id}
                 label={item.label}
                 icon={item.icon}
-                onClick={() => window.location.href = item.route}
+                onClick={() => moveScroll(item.route)}
               />
             );
           })}
