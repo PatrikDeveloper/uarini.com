@@ -10,7 +10,7 @@ export default function Shopping(){
   return (
     <Page currentMenu="Shopping">
       <Content id='content'>
-        
+        <BuyProduct />
       </Content>
     </Page>
   );
