@@ -1,7 +1,7 @@
 import React from 'react';
 import Page from '../../components/Page';
 import Content from '../../components/Content';
-import Forms from './Forms';
+import Forms from './BuyProduct/Forms';
 import BuyProduct from './BuyProduct';
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './styles';
 import Image from '../../../assets/img/ovinha.jpg';
-import Forms from '../Forms';
+import Forms from './Forms';
 
 
 export default function BuyProduct() {

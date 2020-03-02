@@ -64,6 +64,4 @@ export const BigImage = styled.div`
   background-repeat: no-repeat;
 `;
 
-export const Price = styled.div`
-  
-`;
+

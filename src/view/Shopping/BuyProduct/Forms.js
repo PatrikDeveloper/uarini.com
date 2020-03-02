@@ -63,6 +63,22 @@ const ShowQuantity = styled.div`
   color: #ccc;
 `;
 
+const WrapperButton = styled.div`
+  padding: 20px 0;
+`;
+
+const Solicitation = styled.button`
+  border: 1px solid #ff8c00;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ff8c00;
+  padding: 20px 20px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+`;
 
 export default function Forms() {
   const classes = useStyles();
@@ -73,7 +89,7 @@ export default function Forms() {
       <form className={classes.root} noValidate autoComplete="off">
         <TextField id="outlined-basic" label="Nome Completo" variant="outlined" />
         <TextField id="outlined-basic" label="Endereço" variant="outlined" />
-        <TextField id="outlined-basic" label="(11)12345-6789" variant="outlined" />
+        <TextField id="outlined-basic" label="Telefone" placeholder="(11) 99999-9999" variant="outlined" />
       </form>
 
       <WrapperPrice>
@@ -82,6 +98,11 @@ export default function Forms() {
         <Amount>-</Amount>
         <ShowQuantity>1</ShowQuantity>
       </WrapperPrice>
+
+      <WrapperButton>
+        <Solicitation>Solicitar</Solicitation>
+      </WrapperButton>
+
     </Wrapper>
   )
 }
