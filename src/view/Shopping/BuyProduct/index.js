@@ -25,10 +25,6 @@ export default function BuyProduct() {
         <Forms />
       </S.WrapperDescription>
 
-
-
-
-
     </S.Wrapper>
   );
 }
