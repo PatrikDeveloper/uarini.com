@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3aa3073a16358a16d0af0da45044addf",
+    "revision": "073e0a5fe5bc8d315495d346d447e6c9",
     "url": "/uarini.com/index.html"
   },
   {
-    "revision": "359a04ee59e9c999f538",
+    "revision": "fcde035de68e781a2c74",
     "url": "/uarini.com/static/css/main.add5afc2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uarini.com/static/js/2.007591eb.chunk.js.LICENSE"
   },
   {
-    "revision": "359a04ee59e9c999f538",
-    "url": "/uarini.com/static/js/main.6811d61b.chunk.js"
+    "revision": "fcde035de68e781a2c74",
+    "url": "/uarini.com/static/js/main.51c312e8.chunk.js"
   },
   {
     "revision": "f379486fdbc590b29c87",
