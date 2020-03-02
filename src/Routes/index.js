@@ -6,7 +6,7 @@ import Shopping from '../view/Shopping';
 export default function Routes() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/uarini.com'>
         <Switch>
           <Route exact path='/'><HomePage/></Route>
           <Route exact path='/shopping'><Shopping /></Route>
