@@ -1,42 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { makeStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';  
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+      width: '100%',
+    },
+  },
+}));
+
 const Wrapper = styled.div`
-  text-align: center;
-  margin: 20px 0;
+  padding: 20px 10px;
 `;
 
-const Input = styled.input`  
-  margin-right: 10px;
-  padding: 15px 20px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 2px solid #ff8c00;
-  outline: none;
-  background: #FAFAFA;
-`;
-
-const Label = styled.label`
-  margin-right: 10px;
-  font-size: 18px;
-`;
 
 export default function Forms() {
+  const classes = useStyles();
+
   return (
     <Wrapper>
-      <Label>Nome:</Label>
-      <Input />
-      <Label>RG:</Label>
-      <Input />
-      <Label>CPF:</Label>
-      <Input /> <br></br>
-      <Label>Nome:</Label>
-      <Input />
-      <Label>RG:</Label>
-      <Input />
-      <Label>CPF:</Label>
-      <Input />
+      <form className={classes.root} noValidate autoComplete="off">
+        <TextField id="outlined-basic" label="Nome Completo" variant="outlined" />
+        <TextField id="outlined-basic" label="Endereço" variant="outlined" />
+    </form>
     </Wrapper>
   )
 }
