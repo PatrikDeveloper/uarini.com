@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 export  const WrapperTitle = styled.div`
   padding: 10px 0; 
   width: 100%;
-  background: #ccc;
+  background: #24292e;
 `;
 
 export const Title = styled.h1`
@@ -22,6 +22,7 @@ export const WrapperMedia = styled.div`
   display: inline-block;
   vertical-align: top;
   width: 58%;
+  padding: 10px 0;
 `;
 
 export const WrapperDescription = styled.div`
@@ -37,12 +38,16 @@ export const ShowCase = styled.div`
 `;
 
 export const Small = styled.div`
-  margin: 10px 0;
   width: 100px;
   height: 100px;
   border-radius: 3px;
-  border: 2px solid #ccc;
+  border: 3px solid #fafafa;
+  margin-bottom: 12px;
+  background: url('${props => props.img}');
+  background-size: cover;
+  background-repeat: no-repeat;
   cursor: pointer;
+  transition: .3s;
 
   &:hover {
     border: 2px solid #ff8c00;
@@ -53,4 +58,12 @@ export const BigImage = styled.div`
   display: inline-block;
   vertical-align: top;
   width: 74%;
+  height: 440px;
+  background: url('${props => props.img}');
+  background-size: cover;
+  background-repeat: no-repeat;
+`;
+
+export const Price = styled.div`
+  
 `;
