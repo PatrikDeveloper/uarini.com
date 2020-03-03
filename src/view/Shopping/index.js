@@ -4,7 +4,6 @@ import Content from '../../components/Content';
 import BuyProduct from './BuyProduct';
 
 
-
 export default function Shopping(){
   return (
     <Page currentMenu="Shopping">

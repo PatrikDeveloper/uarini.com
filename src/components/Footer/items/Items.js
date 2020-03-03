@@ -9,8 +9,8 @@ export default function ItemsFooter (footer) {
       <S.WrapImage className='Wrap-Image'>
         <S.Icon src={footer.icon} alt='' />
       </S.WrapImage>
-      <S.WrapLabel className='Wrap-Label'>
-        <S.Label clasName='Label'>{footer.label}</S.Label>
+      <S.WrapLabel onClick={footer.onClick} className='Wrap-Label'>
+        <S.Label className='Label'>{footer.label}</S.Label>
       </S.WrapLabel>
     </S.Wrapper>
   )

@@ -9,22 +9,34 @@ const items = [
   {
     id: 1,
     icon: Home,
-    label: 'Sobre'
+    label: 'Sobre',
+    route: '#section-about',
   },
 
   {
     id: 2,
     icon: Configuration,
-    label: 'Produtos'
+    label: 'Produtos',
+    route: '#section-products',
   },
 
   {
     id: 3,
     icon: Delivery,
     label: 'São Paulo',
+    route: '#section-footer',
   }
   
 ]
+
+function moveScroll(elementSelector) {
+  const element = document.querySelector(elementSelector);
+  const position = element.offsetTop;
+  window.scroll({
+    top: position - 60,
+    behavior: 'smooth',
+  });
+}
 
 export default function Footer() {
   return (
@@ -36,6 +48,7 @@ export default function Footer() {
             id={props.id}
             icon={props.icon}
             label={props.label}
+            onClick={() => moveScroll(props.route)}
           />
         );
       })}
