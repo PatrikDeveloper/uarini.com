@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './styles';
 import Image from '../../../assets/img/ovinha.jpg';
-import Forms from './Forms';
+import Form from './Form';
 
 
 export default function BuyProduct() {
@@ -22,7 +22,7 @@ export default function BuyProduct() {
       </S.WrapperMedia>
 
       <S.WrapperDescription>
-        <Forms />
+        <Form />
       </S.WrapperDescription>
 
     </S.Wrapper>
