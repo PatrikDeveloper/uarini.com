@@ -34,8 +34,6 @@ const S = {
   `,
 }
 
-
-
 export default function ContentAbout(box) {
   return (
     <S.Wrapper className='Wrap-content'>
