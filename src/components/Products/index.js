@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Title from '../../components/Title';
 import BoxProducts from './components/BoxProduct';
 
-export const Wrapper = styled.section`
+const Wrapper = styled.section`
   text-align: center;
   padding: 20px;
   margin-bottom: 50px;

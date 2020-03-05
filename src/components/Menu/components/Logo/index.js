@@ -1,31 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  color: white;
-`;
+const S = {
+   Wrapper : styled.div`
+    color: white;
+  `,
 
-const Text = styled.span`
-  display: block;
-  font-size: 26px;
-  font-style: italic;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fec63e;
-  letter-spacing: .1em;
-`;
+  Text : styled.span`
+    display: block;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fec63e;
+    letter-spacing: .1em;
+  `,
 
-const Greeting = styled.span`
-  display: block;
-  font-size: 14px;
-  font-style: italic;
-`;
+  Greeting : styled.span`
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+  `,
+}
+
+
 
 export default function Logo() {
   return (
-    <Wrapper>
-      <Text>Uarini.com</Text>
-      <Greeting>Produtos típicos Amazonenses</Greeting>
-    </Wrapper>
+    <S.Wrapper>
+      <S.Text>Uarini.com</S.Text>
+      <S.Greeting>Produtos típicos Amazonenses</S.Greeting>
+    </S.Wrapper>
   );
 }
