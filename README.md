@@ -1,13 +1,8 @@
->## Projeto Web Utilizando ReactJs
+## Projeto Web Utilizando ReactJs
 
-* Menu com Array de Objetos
+Projeto voltado para exportação de produtos da região norte.
 
-* Props em Conteúdos
-
-* Styled-Components
-
-
->## WebSite Print's
+## WebSite Print's
 
 * Website em Desenvolvimento
 
